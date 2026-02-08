@@ -8,7 +8,7 @@ A clean, scalable full-stack expense management system built with FastAPI and St
 
 **🧠 System Architecture**
 
-
+```
 ┌──────────────────┐
 │     User (UI)    │
 │   Web Browser    │
@@ -39,6 +39,7 @@ A clean, scalable full-stack expense management system built with FastAPI and St
 │ (Extensible)     │
 └──────────────────┘
 
+```
 
 
 
@@ -125,5 +126,6 @@ expense-management-system/
    ```commandline
    python -m pytest -v
    ```
+
 
 
