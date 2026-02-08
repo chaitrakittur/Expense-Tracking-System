@@ -1,18 +1,86 @@
-# Expense Management System
+**💸 Expense Management System**
 
-This project is an expense management system that consists of a Streamlit frontend application and a FastAPI backend server.
+🚀 Streamlit Frontend • ⚡ FastAPI Backend • 🧪 Test-Ready Architecture
+
+A clean, scalable full-stack expense management system built with FastAPI and Streamlit, showcasing real-world backend + frontend engineering best practices.
+
+**🧠 System Architecture**
+┌───────────────┐
+│   User (UI)   │
+│  Web Browser  │
+└───────┬───────┘
+        │
+        ▼
+┌────────────────────┐
+│   Streamlit App     │
+│   (Frontend)        │
+│  • Forms            │
+│  • Dashboards       │
+│  • Charts           │
+└─────────┬──────────┘
+          │ REST API calls
+          ▼
+┌────────────────────┐
+│   FastAPI Backend   │
+│   (Server Layer)    │
+│  • Business Logic   │
+│  • Validation       │
+│  • API Endpoints    │
+└─────────┬──────────┘
+          │
+          ▼
+┌────────────────────┐
+│ Data Layer / Store  │
+│ (Can be extended)   │
+└────────────────────┘
+
+**📂 Project Structure**
+
+expense-management-system/
+│
+├── frontend/            # Streamlit UI
+│   └── app.py
+│
+├── backend/             # FastAPI backend
+│   └── server/
+│       └── server.py
+│
+├── tests/               # Unit & integration tests
+│
+├── requirements.txt     # Python dependencies
+│
+└── README.md            # Project documentation
 
 
-## Project Structure
+**🚀 Features**
 
-- **frontend/**: Contains the Streamlit application code.
-- **backend/**: Contains the FastAPI backend server code.
-- **tests/**: Contains the test cases for both frontend and backend.
-- **requirements.txt**: Lists the required Python packages.
-- **README.md**: Provides an overview and instructions for the project.
+💰 Add and manage expenses
+
+📊 Interactive dashboards and visualizations
+
+⚡ High-performance FastAPI backend
+
+🎨 Streamlit UI for rapid interaction
+
+🧪 Test-friendly code structure
+
+🔌 Easy to extend with DB, auth, analytics
 
 
-## Setup Instructions
+
+**🧰 Tech Stack**
+
+| Layer        | Technology |
+| ------------ | ---------- |
+| Frontend     | Streamlit  |
+| Backend      | FastAPI    |
+| API Server   | Uvicorn    |
+| Language     | Python     |
+| Testing      | Pytest     |
+| Architecture | REST       |
+
+
+**⚙️ Setup Instructions**
 
 1. **Clone the repository**:
    ```bash
@@ -26,8 +94,19 @@ This project is an expense management system that consists of a Streamlit fronte
 1. **Run the FastAPI server:**:   
    ```commandline
     uvicorn server.server:app --reload
+   📍 Backend URL
+   👉 http://127.0.0.1:8000
+
+   📘 Swagger API Docs
+   👉 http://127.0.0.1:8000/docs
    ```
 1. **Run the Streamlit app:**:   
    ```commandline
     streamlit run frontend/app.py
+   🌐 Streamlit app opens automatically in your browser.
+
+   ```
+**🧪 Run Tests**
+   ```commandline
+   python -m pytest -v
    ```
