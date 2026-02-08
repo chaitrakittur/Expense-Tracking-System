@@ -46,6 +46,7 @@ A clean, scalable full-stack expense management system built with FastAPI and St
 
 **📂 Project Structure**
 
+```
 expense-management-system/
 │
 ├── frontend/            # Streamlit UI
@@ -60,7 +61,7 @@ expense-management-system/
 ├── requirements.txt     # Python dependencies
 │
 └── README.md            # Project documentation
-
+```
 
 
 
@@ -126,6 +127,7 @@ expense-management-system/
    ```commandline
    python -m pytest -v
    ```
+
 
 
 
