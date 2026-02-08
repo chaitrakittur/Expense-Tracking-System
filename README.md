@@ -85,6 +85,8 @@ expense-management-system/
 
 **🧰 Tech Stack**
 
+```
+
 | Layer        | Technology |
 | ------------ | ---------- |
 | Frontend     | Streamlit  |
@@ -93,7 +95,7 @@ expense-management-system/
 | Language     | Python     |
 | Testing      | Pytest     |
 | Architecture | REST       |
-
+```
 
 
 
@@ -123,10 +125,11 @@ expense-management-system/
    🌐 Streamlit app opens automatically in your browser.
 
    ```
-**🧪 Run Tests**
+1. **🧪 Run Tests**
    ```commandline
    python -m pytest -v
    ```
+
 
 
 
