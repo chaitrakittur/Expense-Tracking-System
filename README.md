@@ -4,6 +4,8 @@
 
 A clean, scalable full-stack expense management system built with FastAPI and Streamlit, showcasing real-world backend + frontend engineering best practices.
 
+
+
 **🧠 System Architecture**
 ┌───────────────┐
 │   User (UI)   │
@@ -34,6 +36,8 @@ A clean, scalable full-stack expense management system built with FastAPI and St
 │ (Can be extended)   │
 └────────────────────┘
 
+
+
 **📂 Project Structure**
 
 expense-management-system/
@@ -52,6 +56,8 @@ expense-management-system/
 └── README.md            # Project documentation
 
 
+
+
 **🚀 Features**
 
 💰 Add and manage expenses
@@ -68,6 +74,8 @@ expense-management-system/
 
 
 
+
+
 **🧰 Tech Stack**
 
 | Layer        | Technology |
@@ -78,6 +86,8 @@ expense-management-system/
 | Language     | Python     |
 | Testing      | Pytest     |
 | Architecture | REST       |
+
+
 
 
 **⚙️ Setup Instructions**
@@ -110,3 +120,4 @@ expense-management-system/
    ```commandline
    python -m pytest -v
    ```
+
